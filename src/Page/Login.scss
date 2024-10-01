@@ -1,0 +1,59 @@
+.login-form {
+    width: 300px;
+    margin: 100px auto; /* Centers the login form horizontally */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    font-size: 0.9rem;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .buttons button {
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .buttons button:hover {
+    background-color: #4cae4c;
+  }
+  
+  p {
+    margin: 15px 0;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  

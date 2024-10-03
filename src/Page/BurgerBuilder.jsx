@@ -45,7 +45,6 @@ const BurgerBuilder = () => {
   
   return (
     <div className="burger-builder">
-      <h2>Build Your Burger</h2>
       <div className="burger">
         <div className="burger-image1">
           <input type="text" className="bread-top" readOnly value="" />
@@ -83,7 +82,7 @@ const BurgerBuilder = () => {
           )}
           <input type="text" className="bread-bottom" readOnly value="" />
         </div>
-        <h3>Total Price: ${totalPrice()}</h3>
+        <h3>Price: ${totalPrice()}</h3>
       </div>
 
       <div className="buttonss">

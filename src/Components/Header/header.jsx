@@ -8,8 +8,6 @@ const Header = () => {
         <h2>Burger Builder</h2>
         <div>
           <label>
-          <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"></link><i class="uil uil-arrow-left"></i>
-          <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"></link><i class="uil uil-arrow-right"></i>
             <input className="search"></input>
           </label>
         </div>
@@ -25,6 +23,8 @@ const Header = () => {
           <li>
             <Link to="/login">Login</Link>
           </li>
+          
+        
         </ul>
       </div>
     </div>
